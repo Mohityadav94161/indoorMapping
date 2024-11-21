@@ -1,0 +1,13 @@
+{
+    "nodes": [
+        { "id": "A", "name": "Entrance", "coordinates": [0, 0] },
+        { "id": "B", "name": "Clothing Store", "coordinates": [0, 10] }
+    ],
+    "paths": [
+        { "coordinates": [[0, 0], [0, 10]] }
+    ],
+    "graph": {
+        "A": { "B": 1 },
+        "B": {"A":1}
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "paths": [
+    {
+      "start": "entrance",
+      "end": "shop1",
+      "coordinates": [[10, 10], [20, 15], [30, 15]]
+    },
+    {
+      "start": "shop1",
+      "end": "shop2",
+      "coordinates": [[30, 15], [40, 20], [50, 20]]
+    },
+    {
+      "start": "shop2",
+      "end": "staircase",
+      "coordinates": [[50, 20], [55, 25], [60, 30]]
+    },
+    {
+      "start": "staircase",
+      "end": "shop3",
+      "coordinates": [[60, 30], [65, 35], [70, 40]]
+    },
+    {
+      "start": "elevator",
+      "end": "shop3",
+      "coordinates": [[80, 40], [75, 35], [70, 40]]
+    },
+    {
+      "start": "shop3",
+      "end": "exit",
+      "coordinates": [[70, 40], [65, 45], [60, 50]]
+    }
+  ]
+}

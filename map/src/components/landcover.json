@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "landcover",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 43306733, "name": "Sector 18", "landuse": "commercial" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 77.3197972, 28.570725 ], [ 77.323258, 28.5670257 ], [ 77.326778, 28.5699889 ], [ 77.3230151, 28.5736167 ], [ 77.3197972, 28.570725 ] ] ] } }
+]
+}

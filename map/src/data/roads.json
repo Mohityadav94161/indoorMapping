@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Hallway",
+        "highway": "primary",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.3182453, 28.5666774],
+          [77.3183699, 28.5659676],
+          [77.3187236, 28.5660155]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Corridor A",
+        "highway": "secondary",
+        "level": "1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.3183699, 28.5659676],
+          [77.3187236, 28.5660155],
+          [77.3185991, 28.5667253]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Side Path",
+        "highway": "tertiary",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.3187236, 28.5660155],
+          [77.3182453, 28.5666774]
+        ]
+      }
+    }
+  ]
+}

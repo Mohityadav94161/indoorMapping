@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 1", "category": "Clothing" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[0, 0], [0, 10], [10, 10], [10, 0], [0, 0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 2", "category": "Electronics" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[12, 0], [12, 10], [20, 10], [20, 0], [12, 0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 3", "category": "Jewelry" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[22, 0], [22, 8], [30, 8], [30, 0], [22, 0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stair 1", "category": "Stair" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[5, 12], [5, 15]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stair 2", "category": "Stair" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[15, 12], [15, 15]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lift 1", "category": "Lift" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8, 12]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lift 2", "category": "Lift" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25, 12]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Path 1", "category": "Path" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[0, 11], [30, 11]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Path 2", "category": "Path" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[10, 0], [10, 15]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 4", "category": "Books" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[32, 0], [32, 5], [40, 5], [40, 0], [32, 0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 5", "category": "Food Court" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[42, 0], [42, 10], [50, 10], [50, 0], [42, 0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Stair 3", "category": "Stair" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[45, 12], [45, 18]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Lift 3", "category": "Lift" },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48, 15]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 6", "category": "Accessories" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[0, 20], [0, 30], [10, 30], [10, 20], [0, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Shop 7", "category": "Shoes" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[12, 20], [12, 30], [20, 30], [20, 20], [12, 20]]]
+      }
+    }
+  ]
+}

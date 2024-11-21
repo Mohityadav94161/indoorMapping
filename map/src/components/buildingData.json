@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "level": "0",
+        "name": "Ground Floor",
+        "building": "Mall",
+        "shop": "Shop A"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.3182453, 28.5666774],
+            [77.3183699, 28.5659676],
+            [77.3187236, 28.5660155],
+            [77.3185991, 28.5667253],
+            [77.3182453, 28.5666774]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "level": "1",
+        "name": "First Floor",
+        "building": "Mall",
+        "shop": "Shop B"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [77.3182453, 28.5666774],
+            [77.3183699, 28.5659676],
+            [77.3187236, 28.5660155],
+            [77.3185991, 28.5667253],
+            [77.3182453, 28.5666774]
+          ]
+        ]
+      }
+    }
+  ]
+}

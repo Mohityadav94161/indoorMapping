@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 1,
+        "name": "Shop A",
+        "category": "Fashion",
+        "id": "shop-a"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[10, 20], [40, 20], [40, 50], [10, 50], [10, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 1,
+        "name": "Shop B",
+        "category": "Electronics",
+        "id": "shop-b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[50, 20], [80, 20], [80, 50], [50, 50], [50, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 1,
+        "name": "Food Court",
+        "category": "Restaurant",
+        "id": "food-court"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[90, 10], [140, 10], [140, 50], [90, 50], [90, 10]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 1,
+        "name": "Rest Area",
+        "category": "Rest Area",
+        "id": "rest-area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30, 70]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 1,
+        "name": "Escalator to Floor 2",
+        "category": "Escalator",
+        "id": "escalator-1-2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60, 60]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 2,
+        "name": "Shop C",
+        "category": "Fashion",
+        "id": "shop-c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[10, 20], [40, 20], [40, 50], [10, 50], [10, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 2,
+        "name": "Electronics World",
+        "category": "Electronics",
+        "id": "electronics-world"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[50, 20], [80, 20], [80, 50], [50, 50], [50, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 2,
+        "name": "Path from Escalator to Shop C",
+        "category": "Path"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[60, 60], [20, 30], [40, 30]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "floor": 2,
+        "name": "Elevator",
+        "category": "Elevator",
+        "id": "elevator-2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [70, 70]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mall Entrance",
+        "category": "Entrance",
+        "id": "entrance-main"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5, 5]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Parking Lot",
+        "category": "Parking",
+        "id": "parking-lot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[150, 0], [200, 0], [200, 50], [150, 50], [150, 0]]]
+      }
+    }
+  ]
+}
