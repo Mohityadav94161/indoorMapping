@@ -68,7 +68,7 @@ export const CustomAttribution = () => {
 
     useEffect(() => {
         // Set a custom attribution or remove it
-        map.attributionControl.setPrefix('<a href="">...wrongN</a>');
+        map.attributionControl.setPrefix('<a href="">...wrongNumber</a>');
     }, [map]);
 
     return null; // This component just modifies the map, no UI rendered
